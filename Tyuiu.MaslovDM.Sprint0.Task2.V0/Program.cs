@@ -1,0 +1,15 @@
+﻿using Tyuiu.MaslovDM.Sprint0.Task2.V0.Lib;
+
+namespace Tyuiu.MaslovDM.Sprint0.Task2.V0
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Вызов класса DataService и метода GetMessage
+            // из библиотеки Tyuiu.MaslovDM.Sprint0.Task2.V0.Lib
+            Console.WriteLine(DataService.GetMessage("Дима"));
+            Console.ReadLine();
+        }
+    }
+}
