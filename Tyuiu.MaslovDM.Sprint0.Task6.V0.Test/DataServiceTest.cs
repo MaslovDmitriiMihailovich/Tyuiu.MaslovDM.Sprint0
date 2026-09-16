@@ -1,4 +1,5 @@
-﻿using Tyuiu.MaslovDM.Sprint0.Task6.V0.Lib;
+﻿using System.Globalization;
+using Tyuiu.MaslovDM.Sprint0.Task6.V0.Lib;
 
 namespace Tyuiu.MaslovDM.Sprint0.Task6.V0.Test
 {
@@ -8,9 +9,26 @@ namespace Tyuiu.MaslovDM.Sprint0.Task6.V0.Test
         [TestMethod]
         public void CheckedAdditionArrayValid()
         {
-var numbers = new int[] { 1, 2, 3, 4, 5 };
-            var res = new DataServiceTest.AdditionArray(numbers);
+            var numbers = new int[] { 1, 2, 3, 4, 5 };
+            var res = DataService.AdditionArray(numbers);
             Assert.AreEqual(15, res);
         }
+        [TestMethod]
+        public void CheckedSubtractionValid()
+        {
+            var numbers = new int[] { 1, 2, 3, 4, 5 };
+            var res = DataService.SubtractionArray(numbers);
+            Assert.AreEqual(-15, res);
+        }
+
+            [TestMethod]
+            public void CheckedMultiplicationValid()
+            {
+                var numbers = new int[] { 1, 2, 3, 4, 5 };
+                var res = DataService.MultiplicationArray(numbers);
+                Assert.AreEqual(120, res);
+            }
+        
+
     }
 }
