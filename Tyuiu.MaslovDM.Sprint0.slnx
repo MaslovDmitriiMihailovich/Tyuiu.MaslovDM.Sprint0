@@ -21,8 +21,13 @@
     <Project Path="Tyuiu.MaslovDM.Sprint0.Task4.V0/Tyuiu.MaslovDM.Sprint0.Task4.V0.csproj" Id="d63fee3d-5030-403e-b93a-7827f033006e" />
   </Folder>
   <Folder Name="/Task5/">
-    <Project Path="Tyuiu.MaslovDM.Sprint0.Task5.V0,Lib/Tyuiu.MaslovDM.Sprint0.Task5.V0.Lib.csproj" Id="092c4d0f-fea4-4c30-9ac1-d3d5350138ac" />
+    <Project Path="ClassLibrary1/Tyuiu.MaslovDM.Sprint0.Task5.V0.Lib.csproj" Id="e4bba35e-f42d-4d17-b822-6395ab56cd44" />
     <Project Path="Tyuiu.MaslovDM.Sprint0.Task5.V0.Test/Tyuiu.MaslovDM.Sprint0.Task5.V0.Test.csproj" Id="fb7d1755-4cdf-4134-a522-2335cb482a66" />
     <Project Path="Tyuiu.MaslovDM.Sprint0.Task5.V0/Tyuiu.MaslovDM.Sprint0.Task5.V0.csproj" Id="66ca8be4-c2fd-4001-bde9-74122f5aa93d" />
+  </Folder>
+  <Folder Name="/Task6/">
+    <Project Path="Tyuiu.MaslovDM.Sprint0.Task6.V0.Lib/Tyuiu.MaslovDM.Sprint0.Task6.V0.Lib.csproj" Id="7a056ec6-efea-4648-b5a7-921059c89643" />
+    <Project Path="Tyuiu.MaslovDM.Sprint0.Task6.V0.Test/Tyuiu.MaslovDM.Sprint0.Task6.V0.Test.csproj" Id="654904ed-b510-4294-8f9e-e096e1642d6d" />
+    <Project Path="Tyuiu.MaslovDM.Sprint0.Task6.V0/Tyuiu.MaslovDM.Sprint0.Task6.V0.csproj" Id="d3bf4584-7772-4964-bd13-84deeb48730d" />
   </Folder>
 </Solution>
