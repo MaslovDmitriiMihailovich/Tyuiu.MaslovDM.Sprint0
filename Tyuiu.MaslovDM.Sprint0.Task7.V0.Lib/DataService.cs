@@ -2,7 +2,6 @@
 {
     public class DataService
     {
-        //Пример циклической структуры (цикл с параметрами) for
         public static int[] AdditionArrays(int[] numOne, int[] numTwo)
         {
             int[] resultArray = new int[5];
