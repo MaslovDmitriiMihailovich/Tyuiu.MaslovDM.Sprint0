@@ -1,6 +1,6 @@
-﻿using Tyuiu.MaslovDM.Sprint0.Task5.V0.Lib;
+﻿
+using Tyuiu.MaslovDM.Sprint0.Task5.V0.Lib;
 
-sing Tyuiu.MaslovDM.Sprint0.Task5.V0.Lib;
 namespace Tyuiu.MaslovDM.Sprint0.Task5.V0
 {
     class Program
